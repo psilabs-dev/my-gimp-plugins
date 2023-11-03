@@ -1,4 +1,5 @@
 from gimpfu import *
+import os
 
 def add_new_layer_beneath(image, layer, layer_name=None):
 	# Get the layer position.

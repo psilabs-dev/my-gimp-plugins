@@ -4,6 +4,7 @@ import os
 import sys
 sys.path.append(os.path.dirname(__file__))
 from common import *
+from glob import glob
 
 def batch_convert_xcf_to_png(input_dir, output_dir):
     for filename in glob(os.path.join(input_dir, "*.xcf")):
